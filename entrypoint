@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+mix local.hex --force
+
+mix deps.get
+mix setup
+mix phx.server
